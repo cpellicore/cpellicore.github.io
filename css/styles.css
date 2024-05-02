@@ -1,0 +1,412 @@
+/*
+Authors: Christain Pellicore
+Date: 04/29/2024
+File Name: styles.css
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, img, h1, h3, ul, div, section, figure, figcaption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rules for images*/
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Style rule for box sizing applys to all elements*/
+* {
+    box-sizing: border-box;
+}
+
+/* Style rules for mobile view port */
+figure {
+    max-width: 280px;
+    border: 4px solid #1d1d1d;
+    float: left;
+}
+  
+  figcaption {
+    bottom: 0;
+    background: #1d1d1d;
+    color: #fff;
+    width: 100%;
+    padding: 1% 0;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 1em;
+    font-weight: lighter;
+}
+
+/* Style rule to hide tab-desk class */
+.tab-desk, #menu-links {
+    display: none;
+}
+
+/* Style rules for body*/
+body {
+    background-color: #e7e7e7;
+}
+
+/* Style rules for header content */
+header {
+    text-align: center;
+    font-size: 1.8em;
+    color: #6b035d;
+}
+
+header h1 {
+    font-size: 1.5em;
+    padding: 2%;
+    margin-right: 10%;
+    font-style: italic;
+    font-family: "PT Sans", sans-serif;
+    text-shadow: 2px 2px 2px #1d1d1d;
+}
+
+header h3 {
+    font-style: normal;
+    font-size: 1em;
+    color: #1d1d1d; 
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+/* Style rules for navigation area */
+nav {
+    background-color: #6b035d;
+}
+
+/* Mobile style rules */
+.mobile-nav a {
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
+    text-decoration: none;
+    padding: 2%;
+    display: block;
+}
+  
+.mobile-nav a.menu-icon {
+    display: block;
+    position: absolute;
+    right: 0; 
+    top: 0;  
+}
+  
+.menu-icon div {
+    height: 35px;
+    width: 35px;
+    background-color: #6b035d;
+    cursor: pointer; /* Set cursor to pointer */
+}
+
+/* Style rules for main content */
+main {
+    padding: 2%;
+    background-color: #9bfcfc;
+    color: #1d1d1d;
+    clear: right;
+    overflow: auto;
+    font-family: "Poppins", sans-serif;
+}
+
+main p {
+    font-size: 1.30em;
+    color: #1d1d1d;
+}
+
+section {
+	background-color: #e7e7e7;
+	margin-top: 2%;
+	padding: 2%;
+    border: 2px solid #6b035d;
+    border-radius: 1em 1em 1em 1em;
+}
+
+main h2 {
+    color: #6b035d;
+    font-size: 1.80em;
+    margin-left: 2%;
+}
+
+main dl {
+    font-size: 1.10em;
+    color: #1d1d1d;
+    margin: 8px
+}
+
+main ul {
+    font-size: 1.10em;
+    color: #1d1d1d;
+    margin: 30px;
+}
+
+.action {
+    font-size: 1.20em;
+    color: #6b035d;
+    font-weight: bold;
+}
+
+#welcome {
+    padding: 4%;
+    border: 2px solid #6b035d;
+    border-radius: 1em 1em 1em 1em;
+
+}
+
+#contact {
+    text-align: center;
+}
+
+#contact .email-link {
+    color: #6b035d;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Change the link color on hover */
+#contact .email-link:hover {
+    color: #1d1d1d;
+}
+
+.tel-link {
+    background-color: #6b035d;
+    padding: 0.5%;
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.tel-link a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    display: block;
+}
+
+/* Change the link color on hover */
+.tel-link a:hover {
+    background-color: #1d1d1d;
+}
+
+.map {
+    border: 2px solid #1d1d1d;
+    width: 95%;
+    height: 50%;
+}
+
+ /* Style rules for table */
+table {
+    border: 2px solid #6b035d;
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 100%;
+} 
+  
+caption {
+    font-size: 1.80em;
+    font-weight: bold;
+    padding: 1%;
+    color: #6b035d;
+}
+  
+th, td {
+    border: 2px solid #6b035d;
+    padding: 1%;
+}
+  
+th {
+    background-color: #e7e7e7;
+    color: #1d1d1d;
+    font-size: 1.15em;
+}
+
+td:nth-child(1) {
+    width: 120px;
+}
+ 
+td:nth-child(2) {
+    width: 120px;
+}
+
+td:nth-child(3) {
+    width: 350px;
+}
+  
+tr:nth-child(odd) {
+    background-color: #e7e7e7;
+}
+
+/* Style rules for form elements */
+#form h3 {
+    color: #6b035d;
+}
+
+fieldset, input {
+    margin-bottom: 2%;
+}
+  
+fieldset legend {
+    font-weight: bold;
+    font-size: 1.25em;
+}
+  
+label {
+    display: block;
+    padding-top: 3%;
+}
+  
+#submit {
+    margin: 0 auto;
+    display: block;
+    padding: 2%;
+    background-color: #6b035d;
+    font-size: 1em;
+    color: #fff;
+    border-radius: 1em;
+}
+
+ /* Style rules for footer content */
+footer {
+    text-align: center;
+    font-size: 0.65em;
+    clear: left;
+}
+
+footer a {
+    color: #6b035d;
+    text-decoration: none;
+}
+
+.social img {
+    display: inline-block;
+    padding: 4%;
+}
+
+/* Change the link color on hover */
+footer a:hover {
+    color: #1d1d1d;
+}
+
+/* Media query for mobile viewport */
+@media screen and (max-width: 680px) {
+    .social img {
+        width: 20%;
+    }
+    .social .fbicon img {
+        width: 18%;
+    }
+}
+
+/* Media query for tablet viewport */
+@media screen and (min-width: 680px) {
+
+    /* Tablet viewport: show tab-desk class, hide mobile class */
+    .tab-desk {
+        display: block; 
+    }
+    .mobile, .mobile-nav {
+        display: none;
+    }
+     /* Tablet viewport: style rules for header content */
+    header h1 {
+        margin: 0;
+        padding: 0;
+        font-size: 2em;
+    }
+    span.tab-desk {
+        display: inline;
+    }
+    /* Tablet viewport: style rules for nav area */
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        text-align: center;
+    }
+    nav li {
+        font-size: 1.5em;
+        border-top: 1px solid #fff;
+        display: block;
+    }
+    nav li a {
+        display: block;
+        color: #fff;
+        text-decoration: none;
+        padding: 0.30em 1.3em 0.30em 1.3em;
+        background-color: #6b035d;
+    }
+    /* Tablet viewport: Style rules for map */
+    .map {
+        width: 300px;
+        height: 250px;
+    }
+
+    /* Tablet viewport: Style rules for form element */
+    #form {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+      /* Tablet viewport: Style rules for footer area */
+    footer {
+        display: flex;
+    }
+    .Copyright {
+        width: 65%;
+    }
+    .social {
+        display: flex;
+        justify-content: space-between;
+        width: 25%;
+        height: auto;
+    }
+    .social .fbicon img {
+        width: 30%;
+    }
+}
+
+/* Media query for desktop viewort */
+@media screen and (min-width: 900px) {
+
+    .grid {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 10px;
+    }
+
+    /* Desktop viewport: Style rules for header content */
+  
+    /* Desktop viewport: Style rules for nav area */
+    nav li {
+        float: right;
+    }
+    nav li a:hover {
+        background-color: #1d1d1d;
+    }
+
+    /* Desktop viewport: Style rules for table */
+    table {
+        width: 90%;
+    }
+
+    /* Desktop viewport: Style rules for form elements */
+   .form-grid {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 20px;
+    }
+
+   .btn {
+        grid-column: 1 / span 2;
+    }
+
+   #submit:hover {
+        background-color: #1d1d1d;
+    }
+}

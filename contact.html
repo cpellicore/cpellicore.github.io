@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!-- 	
+	Student Name: Christain Pellicore
+	File Name: contact.html
+	Date: 04/29/2024
+-->
+
+<html lang="en">
+<head>
+	<title>Portfolio | Contact</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Contact me at (502)435-7824 or email me at cpellicore0002@kctcs.edu for more information.">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="shortcut icon" href="images/iconstar.png">
+</head>
+<body>
+        <!-- Mobile Nav -->  
+        <nav class="mobile-nav">
+            <div id="menu-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Me</a>
+                <a href="contact.html">Contact Me</a>
+            </div>
+            <a class="menu-icon" onclick="hamburger()">
+                <div>&#9776;</div>
+            </a>
+        </nav>
+
+	<header>
+		<h1><span class="tab-desk">&#8637;</span> Christain Pellicore <span class="tab-desk">&#8641;</span></h1>
+        <h3><span class="tab-desk">&#8757;</span> Welcome <span class="tab-desk">&#8757;</span></h3>
+		<figure class="tab-desk">
+			<img src="images/christain.jpg" alt="picture of me">
+			<figcaption>Web Developer and Enthusiast</figcaption>
+	    </figure>
+	</header>
+	
+	<nav class="tab-desk">
+		<ul>
+			<li><a href="about.html">About Me</a></li>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="contact.html">Contact Me</a></li>
+		</ul>
+	</nav>
+	
+	<!-- Use the main area to add main content to the webpage. Since the main content changes from page to page, the main element contains dynamic content. -->
+	<main class="grid">
+        <div id="contact">
+            <h2>Contact me and let's collaborate!</h2>
+            <p class="tel-link mobile"><a href="tel:5024357824">(502) 435-7824</a></p>
+			<p class="tab-desk">(502) 435-7824</p>
+            <p>Email: <a href="mailto:cpellicore0002@kctcs.edu" class="email-link">cpellicore0002@kctcs.edu</a></p>
+            <p>Located at 631 S 2nd St, Louisville, KY 40202</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3133.3891411754526!2d-85.75725992495659!3d38.247279884803156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886973740faa7301%3A0x5b9ec21bbb75eb87!2sJCTC!5e0!3m2!1sen!2sus!4v1707538148953!5m2!1sen!2sus" width="600" height="450" allowfullscreen class="map"></iframe>
+        </div>
+
+		<div id="form">
+			<h3>Interested in a custom website?</h3>
+			<form class="form-grid"><!-- Start Form -->
+				<fieldset>
+					<legend>Send A Message</legend>
+					<label for="fName">First Name :</label>
+					<input type="text" name="fName" id="fName">
+
+					<label for="lName">Last Name :</label>
+					<input type="text" name="lName" id="lName">
+
+					<label for="email">Email :</label>
+					<input type="email" name="email" id="email">
+
+					<label for="phone">Phone :</label>
+					<input type="tel" name="phone" id="phone">
+
+					<label for="questions">Questions and Information</label>
+					<textarea id="questions" rows="4" cols="35" placeholder="For questions or more information, please submit a form..."></textarea>
+
+					<input type="submit" id="submit" value="Submit" class="btn">
+				</fieldset>
+			</form>
+		</div>
+	</main>
+	
+	<footer>
+		<div class="Copyright">
+			<p><a href="mailto:cpellicore0002@kctcs.edu">cpellicore0002@kctcs.edu</a></p>
+			<p>&copy; Copyright 2021. All Rights Reserved.</p>
+		</div>
+		<div class="social">
+			<a href="https://www.facebook.com/profile.php?id=61558706350293" target="_blank" class="fbicon"><img src="images/Facebook_Logo_Primary.png" alt=" Facebook logo"></a>
+            <a href="https://github.com/cpellicore" target="_blank" class="ghicon"><img src="images/GitHub_Logo.png" alt="GitHub logo"></a>
+		</div>
+	</footer>
+
+	<script src="scripts/script.js"></script>
+</body>
+</html>
